@@ -4,16 +4,25 @@ Cause both are awesome.
 
 ## TODO
  - ~~Configure lint~~
- - Get one Design System
- - Define architecture to be used
+ - ~~Define one Design System~~
+    - [Material](https://flutter.dev/docs/development/ui/widgets/material)
+ - Define architecture to be used ([examples here](https://fluttersamples.com/))
     - Bloc
     - Redux (is that possible?)
     - Another one that I don't know
+ - Define router
+    - [Navigator](https://api.flutter.dev/flutter/widgets/Navigator-class.html) ([cookbook](https://flutter.dev/docs/cookbook/navigation))
+    - [Nuvigator](https://github.com/nubank/nuvigator)
+    - Do more research later about it.
  - Finish one Feature
  - Configure pipeline (maybe use github actions)
     - analyze
     - dartfmt
     - tests
+ - Configure Deploy (Android Only)
+    - Configure steps
+    - Configure pipeline
+    - Set Secrets
  - Do more Features
 
 ### Features
@@ -32,3 +41,8 @@ Cause both are awesome.
     - Show list
     - Add a button to call Create Sheet Widget
     - Tests :dog-please:
+
+### Future
+ - Add Native channels for "I don't know" things
+ - Create a service to save chars cloud
+ - Add monsters and pre made chars on database
